@@ -1,0 +1,71 @@
+.div-wrapper {
+  background-image: url("../img/image-54.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-wrapper2 {
+  background-image: url("../img/image-55.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.text-wrapper {    
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  padding: 20%;
+  color: #ffff;
+}
+
+/* .div-wrapper .overlap-group-wrapper, .div-wrapper2 .overlap-group-wrapper {
+  width: 1496px;
+  height: 5899px;
+}
+
+.div-wrapper .overlap-group, .div-wrapper2 .overlap-group {
+  position: relative;
+  height: 1862px;
+}
+
+.div-wrapper .image, .div-wrapper2 .image {
+  height: 942px;
+  top: 920px;
+  position: absolute;
+  width: 1496px;
+  left: 0;
+  object-fit: cover;
+}
+
+.div-wrapper .img, .div-wrapper2 .img {
+  height: 922px;
+  top: 0;
+  position: absolute;
+  width: 1496px;
+  left: 0;
+  object-fit: cover;
+}
+
+.div-wrapper .text-wrapper, .div-wrapper2 .text-wrapper {
+  position: absolute;
+  width: 1255px;
+  top: 243px;
+  left: 131px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 34.3px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+} */
