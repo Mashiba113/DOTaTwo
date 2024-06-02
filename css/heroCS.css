@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
+
+
+
+
+.main_text{
+    
+    text-align: center;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    position: relative;
+    bottom: 10px;
+    color: white;
+      
+      
+}
+
+body{
+    background-image: url("../img/image19.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.imgTop{
+    display: flex; 
+    justify-content:space-between;
+    margin: 1px 10px 10px 30px ;
+    flex-direction: row;
+    text-align: center;
+    width: 85%;
+    position: relative;
+    left: 75px;
+
+}
+
+
+.imgLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+    position: relative;
+
+    top: 54px;
+    left: 105px;
+    width: 266px;
+}
+
+.imgRight{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:absolute;
+    top: 440px;
+    left: 1130px;
+    width: 266px;
+
+    
+}
+
+
+.strong{
+    width: 89px;
+    position: relative;
+    bottom: 240px;
+    right: 410px;
+}
+
+.text_strong{
+    text-align: center;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    position: relative;
+    bottom: 340px;
+    right: 499px;
+    color:white;
+    
+}
+
+.name_top{
+    color:white;
+    display: flex; 
+    justify-content:space-between;
+    margin: 1px 100px 10px 30px ;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    left: 75px;
+    bottom: 50px;
+    font-size: 20px;
+}
+.axe{
+    
+    position: relative;
+    right:249px;
+}
+
+.pudge{
+   
+    position: relative;
+    bottom: 2px;
+    right:440px;
+}
+/* -----------------------------IMG LEFT----------------------------------------- */
+.name_left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+    font-size: 20px;
+    position: relative;
+    bottom: 580px;
+    left: 105px;
+    width: 266px;
+}
+ .spirit_breaker{
+    position: relative;
+    top:65px;
+}
+.stalker{
+    position: relative;
+    top:15px;
+
+}
+.beast{
+    position: relative;
+    bottom:45px;
+
+} 
+/* ------------------------------------------------------------ */
