@@ -1,0 +1,14 @@
+p{
+color:crimson
+
+
+
+}
+.container{
+width: 100%;
+height: 100vh;
+background: url(img/image\ 5.jpg);
+background-size:cover ;
+background-position: center;
+margin: auto;
+}
