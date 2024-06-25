@@ -10,60 +10,53 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg "style="
-    background-color: transparent;
-    background-image: linear-gradient(to right, #000, transparent);
-">
-  <a class="navbar-brand" href="#"><img src="img/pngwing 1.jpg"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">ПЕРСОНАЖИ </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">О игре</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">О нас</a>
-      </li>
-    </ul>
-    <span class="navbar-text">
-      Navbar text with an inline element
-    </span>
-  </div>
-</nav>
+  <style type="text/css">
+    #ham-menu li {
+    margin: 10px;
 
-<!-- <nav class="navbar navbar-inverse navbar-fixed-top" style="
-    background-color: transparent;
-">
-  <div class="container-fluid" style="
-    background-color: transparent;
-    background-image: linear-gradient(to right, #000, transparent);
-">
-    <div class="navbar-header">
-      <img src="img/pngwing 1.jpg">
-    </div>
-    <ul class="nav navbar-nav center" style="
-    justify-content: center;
-    display: flex;
+    }
+    #ham-menu{
+  width: 95%;
+  text-align: center;
+/*  display:block;*/
+}
+#ham-menu li {
+    display: inline-block;
     float: none;
+    vertical-align: top;
+}
+#ham-menu a{
+  display: block;
+  padding: 10px;
+}
+  </style>
+ <div class="navbar navbar-inverse navbar-fixed-top"style="
+    background-color: transparent;
+    background-image: linear-gradient(to right, #000, transparent);
+    
 ">
-      <li><a href="#">ПЕРСОНАЖИ</a>|</li>
-      <li><a href="#">О игре</a>|</li>
-      <li><a href="#">О нас</a></li>
-    </ul>
-  </div>
-</nav> -->
-<!--             <div class="main_menu">
-                
-                <p></p>
-                <p></p>
-                <p></p>
+        <div class="container-fluid">
+            <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ham-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="#" style="display: flex;
+    justify-content: center;
+    align-items: baseline;"> <img src="img/pngwing 1.jpg"></a>
+            </div>
+            <!-- <div class="navbar-collapse collapse"> -->
+                <ul class="nav navbar-nav navbar-center navbar-collapse collapse " id="ham-menu">
+                    <li><a href="#">ПЕРСОНАЖИ</a></li>
+                    <li><a href="#">О игре</a></li>
+                    <li><a href="#">О нас</a></li>
+                </ul>
 
-            </div> -->
+            <!-- </div> -->
+        </div>
+    </div>
+
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
